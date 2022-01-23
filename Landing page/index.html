@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EL Book's diner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Moon+Dance&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar" class="navbar sticky">
+                <a href="/" class="navbar-brand">
+                    <img src="images/restaurant logo.png" alt="restaurantLogo" id="header-img">
+                </a>
+                <a href="#" class="nav-title">EL Book's Diner</a>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ml-auto">
+                      
+                        
+                          <li class="nav-item active">
+                            <a class="nav-link services" href="#Features" >
+                              Services
+                            </a>  
+                          </li>
+                        
+                          <li class="nav-item active">
+                            <a class="nav-link contact" href="#video">
+                              How it's made
+                            </a>
+                          </li>
+                        
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#MENUS">
+                              Pricing
+                            </a>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+        </nav>
+    </header>
+    <main>
+      <div class="container">
+        <section class="bumper"></section>
+        <section class="email">
+          <div class="email-div">
+            <h1>Delicious, amazing masterpieces</h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+              <label for="emailbox"></label>
+              <input type="email" id="email" class="input" placeholder="Enter your email address" required><br>
+              <button type="submit" id="submit" class="submit-button" href="#">Order Now</button>
+            </form>
+          </div>
+        </section>
+        <section class="carousel" aria-label="Gallery">
+          <ol class="carousel__viewport">
+            <li id="carousel__slide1"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper">
+                <a href="#carousel__slide4"
+                   class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2"
+                   class="carousel__next">Go to next slide</a>
+              </div>
+            </li>
+            <li id="carousel__slide2"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide1"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide3"
+                 class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide3"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide2"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide4"
+                 class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide4"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide3"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide1"
+                 class="carousel__next">Go to first slide</a>
+            </li>
+          </ol>
+          <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide1"
+                   class="carousel__navigation-button">Go to slide 1</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide2"
+                   class="carousel__navigation-button">Go to slide 2</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide3"
+                   class="carousel__navigation-button">Go to slide 3</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide4"
+                   class="carousel__navigation-button">Go to slide 4</a>
+              </li>
+            </ol>
+          </aside>
+        </section>
+        <section class="Features" id="Features">
+          <div class="features">
+            <i class="material-icons">ramen_dining</i>
+            <div class="fresh">
+              <h2>The Freshest Ingredients</h2>
+              <p>We make our food with the most amazing local ingredients available.</p>
+            </div>
+          </div>
+          <div class="features">
+            <i class="material-icons">emoji_food_beverage</i>
+            <div class="drinks">
+              <h2>Classic Korean drinks</h2>
+              <p>Try some of the most amazing classic Korean beverages.</p>
+            </div>
+            </div>
+            <div class="features">
+              <i class="material-icons">delivery_dining</i>
+              <div class="order">
+                <h2>Enjoy the same experience from home</h2>
+                <p>Order from home and get the same quality of food.</p>
+              </div>
+          </div>
+        </section>
+        <section class="video">
+          <div id="video"><iframe width="1000" height="700" src="https://www.youtube.com/embed/c0xMhLmOXx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </section>
+        <section class="menus" id="MENUS">
+          <div class="menu-box">
+            <div class="box-title">
+              <h2>Tokyo</h2>
+            </div>
+            <div class="menuBox-image">
+              <img src="images/c13bf8d5bc29ba50e071ac4c4970b22b.jpg" alt="">
+            </div>
+            <div class="box-body">
+              <p class="price"><strong>10$</strong></p>
+              <p>Beautifully Cooked Fish</p>
+              <p>Home Made Toast</p>
+              <p>Aww Mustard</p>
+              <p>Shitake Mushrooms</p>
+              <a class="menu-button">Order Now</a>
+            </div>
+          </div>
+          <div class="menu-box">
+            <div class="box-title">
+              <h2>JumBong</h2>
+            </div>
+            <div class="menuBox-image">
+              <img src="images/jumbong.jpg" alt="">
+            </div>
+            <div class="box-body">
+              <p class="price"><strong>12$</strong></p>
+              <p>Spicy Thick Noodle</p>
+              <p>Soup With Seafood</p>
+              <a class="menu-button">Order Now</a>
+            </div>
+          </div>
+          <div class="menu-box">
+            <div class="box-title">
+              <h2>Kimchi Soup</h2>
+            </div>
+            <div class="menuBox-image">
+              <img src="images/kimchi-sundubu-jjigae-done.jpg" alt="">
+            </div>
+            <div class="box-body">
+              <p class="price"><strong>14.50$</strong></p>
+              <p>Hot and Spicy Soup</p>
+              <p>Made With Kimchi,</p>
+              <p>Pork,Tofu and Served</p>
+              <p>With Rice</p>
+              <a class="menu-button">Order Now</a>
+            </div>
+          </div>
+        </section>
+        <section class="TOS">
+          <div class="TOS-content">
+            <p>Privacy  Terms Contact</p>
+            <p>Copyright 2016, Original Trombones</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    
+</body>
+</html>
